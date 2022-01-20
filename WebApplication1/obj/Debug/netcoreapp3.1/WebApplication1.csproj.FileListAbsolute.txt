@@ -323,7 +323,6 @@ D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\bin\Debug\netco
 D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
 D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
 D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
 D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
@@ -351,3 +350,5 @@ D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netco
 D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.dll
 D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.pdb
 D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.genruntimeconfig.cache
+D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.AssemblyReference.cache
+D:\xampp_new\htdocs\practice\Asp-Web-development\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig

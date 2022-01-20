@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -39,6 +40,20 @@ namespace WebApplication1
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            //Custom Middleware Code In startup.cs
+            app.Use(async (context, next) =>
+            {
+                if(context.Request.Method == HttpMethods.Get && context.Request.Query["iscertified"] == "true" )
+                {
+                    await context.Response.WriteAsync("Message from Middleware \n ");
+                }
+                
+                await next();
+                
+            });
+
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -46,8 +61,15 @@ namespace WebApplication1
 
             app.UseAuthorization();
 
+
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapGet("/", async context =>
+               {
+                   await context.Response.WriteAsync("Hello World");
+               }
+                    );
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

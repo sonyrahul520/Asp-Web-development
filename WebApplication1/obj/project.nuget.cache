@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hJi3N20BtdbljcKfu0nYKIgwhPW6CxjrhZ3SAZS0ujh2G4B64dWMDBtGEiWRzBODoP9AijcWPRVXFcDqfZV/JQ==",
+  "dgSpecHash": "bFNRVCXfbwKcPuwoDeOjZXjdePfyZgYab5ymVK/R6rbVt+B4jwqYuBM1CdBwe8yMB8uWhkzRpMLideJpevkcDA==",
   "success": true,
   "projectFilePath": "D:\\xampp_new\\htdocs\\practice\\Asp-Web-development\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
@@ -19,8 +19,7 @@
     "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }
